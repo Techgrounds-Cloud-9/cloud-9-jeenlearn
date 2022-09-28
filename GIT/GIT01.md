@@ -7,11 +7,11 @@ The git hub respository is a remote repository
 * Push/pull 
 * Clone
 ## Exercise
-Create a GitHub account if you don't already have one
-Create a repository on your GitHub account for your portfolio
-Give permissions to your teammates to use the repository
-Push your code to your repository
-Pull / Clone a repository from your peer.
+- Create a GitHub account if you don't already have one
+- Create a repository on your GitHub account for your portfolio
+- Give permissions to your teammates to use the repository
+- Push your code to your repository
+- Pull / Clone a repository from your peer.
 
 ### Sources
 
@@ -23,8 +23,21 @@ Pull / Clone a repository from your peer.
  The intial challenge was to get an understanding of  how the GIT works. After reading some content on it , was able to understand it better.
 
 ### Results
-![Add members](../00_includes/Git01/Addmembers.png)
 
-![Clone](../00_includes/Git01/Clone.jpg)
+Git Repository
+
+![Git repository](../00_includes/Git/Gitrepo.png)
+
+Giving access to members
+
+![Add members](../00_includes/Git/Addmembers.png)
+
+Pushing Code
+
+![Push code](../00_includes/Git/pushcode.png)
+
+Cloning a members git repository
+
+![Clone](../00_includes/Git/Clone.jpg)
 
 

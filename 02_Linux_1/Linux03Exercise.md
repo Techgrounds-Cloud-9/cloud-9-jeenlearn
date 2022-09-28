@@ -26,11 +26,20 @@ Trying to add content to file, search for words in the file , move the line to n
  No challenges faced. Learned from peer more ways to do the same exercise.
 
  ### Results
+
+ Adding a new line  to a text file
+
  ![Newline](../00_includes/linux03/Newline.png)
+
+ New line redirected to a text file
 
 ![NewFile](../00_includes/linux03/Savetonewtext.png)
 
+Filtering the word from the text
+
 ![Filter](../00_includes/linux03/filterline.png)
+
+Using grep to filter
 
 ![UsingGrep](../00_includes/linux03/usinggrep.png)
 
