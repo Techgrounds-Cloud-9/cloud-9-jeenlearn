@@ -1,30 +1,27 @@
 # GIT and Markdown
-Markdown is the 
+Markdown is an open source mark up language used to make documents in a simple way. GITHub supports markdown documents.
 ## Key Terminologies
-* Repository
-* Master/Branch
-* Commit
-* Push/pull 
-* Clone
+* WYSIWYM
+*
 ## Exercise
-- Create a GitHub account if you don't already have one
-- Create a repository on your GitHub account for your portfolio
-- Give permissions to your teammates to use the repository
-- Push your code to your repository
-- Pull / Clone a repository from your peer.
+- Create a document with your chosen editor.
+- The editor used is VS code.
 
 ### Sources
 
-* [link1](https://blog.devgenius.io/how-to-push-your-code-to-github-using-few-git-commands-69171c185bf1)
+* [Markdown ](https://www.geeksforgeeks.org/introduction-to-markdown/)
 
-* [link2](https://medium.com/@saivishwanath18/how-to-push-code-into-github-8e20f993b9d2)
+
 
 ### Overcome challenges
- The intial challenge was to get an understanding of  how the GIT works. After reading some content on it , was able to understand it better.
+ 
+With out knowing how the markdown document look like in the VS code ,it was difficult to align and debug the mistakes. The preview of the document helped in understanding it better.
 
 ### Results
-![Add members](../00_includes/Git01/Addmembers.png)
+VS code sample
 
-![Clone](../00_includes/Git01/Clone.jpg)
+![Sample md](../00_includes/Git/VScode.png)
+
+
 
 
