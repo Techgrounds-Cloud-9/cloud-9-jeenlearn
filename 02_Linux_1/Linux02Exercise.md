@@ -48,7 +48,7 @@ List of files
 
 Relative and absolute path
 
-![Paths](../00_includes/linux02/relative_abspath)
+![Paths](../00_includes/linux02/relative_abspath.png)
 
 
 
