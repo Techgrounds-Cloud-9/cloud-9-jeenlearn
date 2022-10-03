@@ -2,10 +2,10 @@
 Cron jobs are scheduled jobs. Cron is a utility program that lets users input commands for scheduling tasks repeatedly at a specific time
 
 ## Key Terminologies
-* Cron - The default coammnd line where you execute commands
-* PATH - The path is the path where your scripts are written. This has to be mentioned in the environment variable PATH so that when you run a script it knows where exactly it should look for the file.
-* Shell scripts - contains a sequence of commands for the linux to execute. These files have a .sh as the extension
-* apt -used to install packages
+* Cron - The daemon which runs in the background to run the scheduled jobs
+* Cron jobs - These are the scehduled tasks which the cron runs.
+* Cron table - The cron tab is the file where all the cron jobs are defined and the path to the scripts given.
+
 
 ## Exercise 1
 - Create a Bash script that writes the current date and time to a file in your home directory.
