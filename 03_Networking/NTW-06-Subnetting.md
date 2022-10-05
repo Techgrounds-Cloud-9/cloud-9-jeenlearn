@@ -46,5 +46,5 @@ Every group of ip addresses ina subnet , has a Subnet Address, Broadcast Address
 
  ### Results
 
-![Network diagram](../00_includes/Networking/NTW06/Network.png)
+![Network diagram](../00_includes/Networking/NTW06/Network1.png)
 
