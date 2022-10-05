@@ -31,7 +31,7 @@ A firewall is a security tool that monitors incoming and/or outgoing network tra
 
 * [Firewall Types](https://www.parallels.com/blogs/ras/types-of-firewalls/)
 * [Firewall](https://www.fortinet.com/resources/cyberglossary/stateful-vs-stateless-firewall)
-* [Firewall details](https://www.fortinet.com/resources/cyberglossary/stateful-vs-stateless-firewall)
+* [UFW details](linux.com/training-tutorials/introduction-uncomplicated-firewall-ufw/)
 * [Firewall Types 2](https://geekflare.com/stateful-vs-stateless-firewalls/)
 
 * [Settingup Firewall](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04)
