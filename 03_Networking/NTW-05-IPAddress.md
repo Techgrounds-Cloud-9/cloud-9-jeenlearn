@@ -2,11 +2,13 @@
 An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication.
 
 ## Key Terminologies
-* IP address
-* IPv4 en IPv6
-* Public and Private IPs
-* NAT
-* Static and Dynamic IP
+* IP address -An IP address is assigned to each device connected to a network. Each device uses an IP address for communication. It also behaves as an identifier as this address is used to identify the device on a network. 
+* IPv4 vs IPv6-
+    An IPv4 address (Internet Protocol version 4) comprises four sets of numbers, each ranging from 0 to 255, which are separated by periods.
+    IPv6, was first introduced in the late 1990s as a replacement for IPv4. It uses 128-bit addresses formatted as eight groups of four hexadecimal numbers separated by colons. IPv6 is the solution that addresses the relatively limited number of IP addresses possible under IPv4.
+* Public and Private IPs -Private IP address of a system is the IP address that is used to communicate within the same network. Using private IP data or information can be sent or received within the same network. Public IP address of a system is the IP address that is used to communicate outside the network. A public IP address is basically assigned by the ISP (Internet Service Provider). 
+* NAT- Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. masks the port number of the host with another port number, in the packet that will be routed to the destination.
+* Static and Dynamic IP -A static IP address is simply an address that doesn't change. Dynamic addresses are dynamic and assigned, as needed, by Dynamic Host Configuration Protocol (DHCP) servers.
 
 
 
@@ -34,6 +36,10 @@ An Internet Protocol address (IP address) is a numerical label such as 192.0.2.1
 * [What is my IP](https://www.whatismyip.com/)
 
 * [Private IP address](https://www.geeksforgeeks.org/private-ip-addresses-in-networking/)
+* [IPV4 vs IPV6](https://www.avast.com/c-ipv4-vs-ipv6-addresses)
+* [NAT](https://www.geeksforgeeks.org/network-address-translation-nat/)
+* [NAT2](https://www.educba.com/what-is-nat/)
+* [Static vs Dynamic Address](https://www.avast.com/c-static-vs-dynamic-ip-addresses)
 
 
 ### Overcome challenges
