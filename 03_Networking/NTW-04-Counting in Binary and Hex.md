@@ -27,7 +27,7 @@ Computers store and process data in binary ie. 1 or 0.
 
 * [Decimal to Hexadecimal](https://www.tutorialspoint.com/how-to-convert-decimal-to-hexadecimal)
 * [Decimal to Binary](https://www.tutorialspoint.com/how-to-convert-decimal-to-binary)
-https://www.rapidtables.com/convert/number/hex-to-decimal.html
+* [Conversion](https://www.rapidtables.com/convert/number/hex-to-decimal.html)
 
 
 ### Overcome challenges
