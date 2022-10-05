@@ -25,8 +25,9 @@ A network protocol is an agreement about how to communicate. There are protocols
 * [Protocols Defined](https://www.comptia.org/content/guides/what-is-a-network-protocol#:~:text=The%20following%20groups%20have%20defined%20and%20published%20different,Union%20%28ITU%29%20The%20World%20Wide%20Web%20Consortium%20%28W3C%29)
 
 * [Custom protocols](https://softwareengineering.stackexchange.com/questions/366134/can-someone-implement-a-custom-network-protocol)
+* [OSI protocols](https://en.wikipedia.org/wiki/OSI_protocols)
 
-*[QUIC](https://en.wikipedia.org/wiki/QUIC)
+* [QUIC](https://en.wikipedia.org/wiki/QUIC)
 
 * [Wireshark ](https://wiki.wireshark.org/CaptureFilters)
 
@@ -41,15 +42,15 @@ The second question wasnt very clear and we were looking for more solutions on t
 
 #### Question 1
 
-Layer 7	Application	-SMTP, HTTP, FTP, POP3, SNMP,DHCP,Telnet,ICMP,DNS
+Layer 7	Application	-SMTP, HTTP, FTP, POP3, SNMP,DHCP,Telnet
 
-Layer 6	Presentation-	MPEG, ASCH, SSL, TLS
+Layer 6	Presentation-	MPEG, ASCII, SSL, TLS
 
-Layer 5	Session	-NetBIOS, SAP,SMPP
+Layer 5	Session	-NetBIOS, SAP,SMPP ,F2F,PAP
 
-Layer 4	Transport -	TCP, UDP
+Layer 4	Transport -	TCP, UDP,DCCP,SCTP
 
-Layer 3	Network	- IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
+Layer 3	Network	- IPV5, IPV6, ICMP, IPSEC, ARP, MPLS,NAT,CIDR.
 
 Layer 2	Data Link -	RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
 
@@ -67,7 +68,7 @@ The following groups have defined and published different network protocols:
 - The International Telecommunications Union (ITU)
 - The World Wide Web Consortium (W3C)
 
-If we have to create a new protocol , it has be created in line with the existing protocols so that it works along with the existing protocol. The new protocols Internet Draft with the specification has to be submitted to any of the organizations that standardizes the protocol like IETF. The organization will review it and decide.Once its approved , it will be made as a worldwide standard. One such example is QUIC.
+If we have to create a new protocol , it has be created in line with the existing protocols so that it works along with the existing protocol. The new protocol's Internet Draft with the specification has to be submitted to any of the organizations that standardizes the protocol like IETF. The organization will review it and decide.Once its approved , it will be made as a worldwide standard. One such example is QUIC.
 
 #### Question 3
 
