@@ -22,6 +22,7 @@ The Network devices are devices that are used to connect different hosts(compute
 * [Network Devices 1](https://testbook.com/learn/types-of-computer-network-devices/)
 * [Network Devices 2](https://www.tutorialspoint.com/communication_technologies/communication_technologies_network_devices.htm)
 * [Network Devices 3](https://www.scaler.com/topics/computer-network/network-devices/)
+* [Network Devices 4](https://www.practicalnetworking.net/series/packet-traveling/key-players/)
 
 * [Find all connected devices](https://www.iottechtrends.com/find-all-devices-connected-router/)
 
