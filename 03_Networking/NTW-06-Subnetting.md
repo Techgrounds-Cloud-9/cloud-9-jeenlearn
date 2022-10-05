@@ -2,8 +2,11 @@
 A subnet, or subnetwork, is a network inside a network. Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routers to reach its destination.
 
 ## Key Terminologies
-* Subnet mask -A subnet mask is like an IP address, but for only internal usage within a network.
+* Subnet -A subnet, or subnetwork, is a network inside a network. Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routers to reach its destination.
+Every group of ip addresses ina subnet , has a Subnet Address, Broadcast Address, and Gateway.
 
+* Subnet mask -A subnet mask is like an IP address, but for only internal usage within a network.A subnet mask is like an IP address, but for only internal usage within a network. Routers use subnet masks to route data packets to the right place.
+* CIDR - Classless Inter-Domain Routing (CIDR) block. E.g., 172.31.0.0/16 is the primary CIDR block .A subnet is a range of IP addresses and this range is calculated using the CIDR block.
 
 
 
