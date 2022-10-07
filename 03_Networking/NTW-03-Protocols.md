@@ -43,18 +43,47 @@ The second question wasnt very clear and we were looking for more solutions on t
 #### Question 1
 
 Layer 7	Application	-SMTP, HTTP, FTP, POP3, SNMP,DHCP,Telnet
+    
+- FTP (File Transfer Protocol):It helps to transfer files between any 2 hosts on a network.
+- SMTP ( Simple Mail Transfer Protocol) : It is used to transfer the mails. 
+- HTTP (Hyper Text Transfer Protocol) :
+- SNMP (Simple network management protocol ): It is used to collect and organize the data of managed devices on IP networks.
+- DHCP (Dynamic Host Configuration Protocol) : It gives IP addresses to hosts.
 
-Layer 6	Presentation-	MPEG, ASCII, SSL, TLS
+Layer 6	Presentation-	SSL, TLS,MPEG, ASCII 
 
-Layer 5	Session	-NetBIOS, SAP,SMPP ,F2F,PAP
+- SSL(Secure Socket Layer): It  provides security to the data that is being transferred between the web browser and the server.
+- TLS(Transport Layer Security) :It is a security protocol designed to facilitate privacy and data security for communications over the Internet.
 
-Layer 4	Transport -	TCP, UDP,DCCP,SCTP
+Layer 5	Session	-RPCP,PPTP ,PAP,SDP, SAP
 
-Layer 3	Network	- IPV5, IPV6, ICMP, IPSEC, ARP, MPLS,NAT,CIDR.
+- PAP(Password Authentication Protocol): It is a password-based authentication protocol used by Point to Point Protocol (PPP) to validate users. 
+- PPTP(Point-to-Point Tunneling Protocol ):It is a protocol which provides a method for implementing virtual private networks. 
+- RPCP( Remote Procedure Call Protocol):It is a protocol that is used when a computer program causes a procedure (or a sub-routine) to execute in a different address space without the programmer explicitly coding the details for the remote interaction. 
 
-Layer 2	Data Link -	RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
+Layer 4	Transport -	TCP, UDP
 
-Layer 1	Physical -	RS232, 100BaseTX, ISDN, 11.
+- UDP(User Datagram Protocol): It is a transport-level end-to-end protocol that adds addresses of transport-level, control of errors in the checksum, and data lengths from the top laying. 
+- TCP(Transmission Control Protocol) :It is a connection-oriented transport protocol. TCP is a protocol that specifies how network connections can be developed and maintained under which applications can share data. 
+
+Layer 3	Network	- IPV4, IPV6, ICMP, ARP
+
+- ARP(Address Resolution Protocol)
+- ICMP(Internet Control Message Protocol): It is a network diagnostic and error reporting protocol.
+- IPV4 (Internet Protocol Version 4) :IPv4 is 32-bit addressing scheme used as TCP/IP host addressing mechanism. IP addressing enables every host on the TCP/IP network to be uniquely identifiable.
+
+
+Layer 2	Data Link -	SDLC,HDLC,SLIP,PPP
+
+- SDLC (Synchronous Data Link Protocol ):SDLC is basically a communication protocol of computer. It usually supports multipoint links even error recovery or error correction also. It is usually used to carry SNA (Systems Network Architecture) traffic and is present precursor to HDLC. 
+- HDLC (High-Level Data Link Protocol):HDLC is basically a protocol that is now assumed to be an umbrella under which many Wide Area protocols sit.
+- SLIP(Serial Line Interface Protocol ):SLIP is generally an older protocol that is just used to add a framing byte at end of IP packet. It is basically a data link control facility that is required for transferring IP packets usually among Internet Service Providers (ISP) and a home user over a dial-up link. 
+- PPP(Point to Point Protocol):PPP is a protocol that is basically used to provide same functionality as SLIP. It is most robust protocol that is used to transport other types of packets also along with IP Packets.
+
+
+Layer 1	Physical -	RS232
+
+- RS232 - RS232 Communication protocol is an old serial communication protocol. Modern hardware designs use innovative serial communication protocols like USB, Ethernet, and Wi-Fi. 
 
 #### Question 2
 

@@ -91,7 +91,8 @@ The other information you can see on the list is the MAC address, ip address and
  #### Question 3
 
  DHCP server configuration
-
+ 
+In a home network the router serves as the DCHP Server.
 To see the DHCP configuration you can run the command ipconfig /all .It will give the DHCP  status, server, etc
 
 ![DHCP](../00_includes/Networking/NTW02/DHCPconf.png)
