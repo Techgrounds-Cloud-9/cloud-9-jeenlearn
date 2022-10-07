@@ -8,6 +8,8 @@ A firewall is a security tool that monitors incoming and/or outgoing network tra
 * Stateful Firewall - A stateful firewall inspects everything inside data packets, the characteristics of the data, and its channels of communication. Stateful firewalls examine the behavior of data packets, and if anything seems off, they can filter out the suspicious data.
 * Stateless Firewall - Stateless firewalls make use of a data packet's source, destination, and other parameters to figure out whether the data presents a threat. There are certain preset rules that firewalls enforce while deciding whether traffic must be permitted or not.
 * UFW - UFW, or Uncomplicated Firewall, is a simplified firewall management interface that hides the complexity of lower-level packet filtering technologies such as iptables and nftables.
+* firewalld -Is a firewall daemon installed by default in CentOS and REHL.
+
 
 
 
