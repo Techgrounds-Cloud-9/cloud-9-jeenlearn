@@ -36,6 +36,8 @@ You are not allowed to use any private messages or other communication channels 
 * [Symmetric Encryption](https://phemex.com/academy/what-is-symmetric-key-encryption)
 * [Encryption tool](https://www.tools4noobs.com/online_tools/encrypt/)
 * [Random key generator](https://generate-random.org/encryption-key-generator?count=1&bytes=32&cipher=des-cbc&string=&password=)
+* [Caesar Cipher](https://cryptii.com/pipes/caesar-cipher)
+* [Diffie Hellman KeyExchange](https://cryptotools.net/dhe)
 
 
 
@@ -95,4 +97,13 @@ Now the receiver will decrypt the message using the secret key he already have f
 
 ![Decryption](../00_includes/Security/SEC-05/SymmetricDecryption.png)
 
+
+##### Caesar Cipher Encryption
+
+
+As a part of symmetric encryption, we tried the Caesar Cipher encryption also to encrypt a message. Here we used the Diffie-Hellman Key Exchange algorithm to share the key. We used the algorithm and computed the results manually to get the secret key, which was used for both encryption and decryption. We just shared the initial random number and prime number to generate the public key. this public key was shared and it was used to find the secret key using our own private key. This method was one of the olden days key exchange algorithms, the simplicity of the method enticed us to test it manually .
+
+The results are below: 
+
+![Caesar Cipher](../00_includes/Security/SEC-05/caesardecode.png)
 
