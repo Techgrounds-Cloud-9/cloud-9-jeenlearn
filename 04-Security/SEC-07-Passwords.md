@@ -45,6 +45,7 @@ Passwords fall into the ‘something you know’ category.A Password is a word, 
 * [Salted Hashing](https://www.geeksforgeeks.org/what-is-salted-password-hashing/#:~:text=Salt%20is%20a%20cryptographically%20secure%20random%20string%20that,original%20plaintext%20without%20having%20access%20to%20both%20sources.)
 * [Salt](https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/)
 * [ Salt explained ](https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/)
+* [Hash functions](https://www.tutorialspoint.com/cryptography/cryptography_hash_functions.htm)
 
 
 
