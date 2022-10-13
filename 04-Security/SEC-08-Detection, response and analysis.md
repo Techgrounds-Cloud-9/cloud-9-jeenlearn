@@ -68,7 +68,7 @@ Response, and analysis are part of a disaster recovery plan. This plan is an imp
 
  #### Question 1
 
-The RPO of the database is 24 hours. As its is backed up everyday, the threshold of dataloss acceptable by the company is 24 hours.
+The RPO of the database is 24 hours. As it is backed up everyday, the threshold of dataloss acceptable by the company is 24 hours.
 
  #### Question 2
 
