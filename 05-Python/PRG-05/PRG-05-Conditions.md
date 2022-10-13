@@ -67,7 +67,7 @@ You use the input function to ask the user to input the name in the terminal. On
 
 For checking these condition you can have if , elif and else and can make the approriate conditions in each and give the appropriate message. To continue this loop till the user inputs 100, we can use a while loop on top of the if condition, so the while loop will go one till the variable int he while loop is not equal to 100, once the user enter 100 , inside the else condition the loop variable is made to 100 so that , the loop exists and the program ends.
 
-The below screen shots the if ,elif and else conditons for each time when the program is run.
+The below screen shows the if ,elif and else conditons for each time when the program is run.
 
 ![If else](/00_includes/Python/PRG-05/EX2.png)
 
@@ -77,36 +77,4 @@ If you want the user input to be given till the user enter 100, we can use the b
 
 
 ![If else with loop](/00_includes/Python/PRG-05/EX2.1.png)
-
-
- 
-
-
-
-## Exercise 3
-
-- Create a new script.
-- Copy the array below into your script.
- arr = ["Coen", "Casper", "Joshua", "Abdessamad", "Saskia"]
-- Use a for loop to loop over the array. Print every name individually.
-
-
-
-
-
-### Sources
-
-* [For loop](https://www.w3schools.com/python/python_for_loops.asp)
-
-
-### Overcome challenges
- No challenges faced.
-
- ### Results
-
-For loop can be used to  iterate through an array also in the same way.
-
-![For loop](/00_includes/Python/PRG-04/EX3.png)
-
-
 
