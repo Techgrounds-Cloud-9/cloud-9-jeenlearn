@@ -58,7 +58,7 @@ You use the input function to ask the user to input the name in the terminal. On
 ### Sources
 
 
-
+* [While True](https://www.geeksforgeeks.org/how-to-use-while-true-in-python/)
 
 ### Overcome challenges
  No challenges faced.
