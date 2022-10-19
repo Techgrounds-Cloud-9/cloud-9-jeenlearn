@@ -3,10 +3,10 @@ import csv
 # function which add the values to the dictionary
 def user_info(firstname,lastname,title,company):
    user_dic = dict()
-   user_dic["FirstName"] = [firstname]
-   user_dic["LastName"] = [lastname]
-   user_dic["Title"] = [title]
-   user_dic["Company"] = [company]
+   user_dic["FirstName"] = firstname
+   user_dic["LastName"] = lastname
+   user_dic["Title"] = title
+   user_dic["Company"] = company
    return user_dic
 
 #sd= dict()
