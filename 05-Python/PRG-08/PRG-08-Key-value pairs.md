@@ -76,7 +76,7 @@ for i in enumerate(var_dict.items()):
 
 
 ### Overcome challenges
- while writing the dictionary to the csv file, the header was added mutiple times , for solving that issue had to try many different ways, like sniffer which was giving many errors and the was giving more lines of code. so to optimize that just decided to check forthe existense of the file and then use an if loop to add the header if the file does not exist and the subsequent times not to add the header and just the dictionary values.
+ While writing the dictionary to the csv file, the header was added mutiple times , for solving that issue had to try many different ways, like sniffer which was giving many errors and that was giving more lines of code. So to optimize that  decided to check for the existence of the file using the os.path package and then use an if loop to add the header if the file does not exist and the subsequent times not to add the header and just the dictionary values.
 
  ### Results
 
@@ -87,10 +87,10 @@ import csv
 # function which add the values to the dictionary
 def user_info(firstname,lastname,title,company):
    user_dic = dict()
-   user_dic["FirstName"] = [firstname]
-   user_dic["LastName"] = [lastname]
-   user_dic["Title"] = [title]
-   user_dic["Company"] = [company]
+   user_dic["FirstName"] = firstname
+   user_dic["LastName"] = lastname
+   user_dic["Title"] = title
+   user_dic["Company"] = company
    return user_dic
 
 #sd= dict()
