@@ -11,4 +11,4 @@ print(type(d))
 #Finding the sum of the 2 variables using float to change the string to float value
 var_sum=b+float(d)
 #Printing the sum
-print("Sum :"+str(var_sum))
+print("Sum :",var_sum)
