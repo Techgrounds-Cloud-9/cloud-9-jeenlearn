@@ -12,7 +12,7 @@ while(count < 7):
         print("You guessed too small!")
     elif x<inp_val:
         print("You guessed too high!")
-if count >7:
-    print("The number is "+ str(x))
+if count >=6:
+    print("The number is ", x)
     print("Better Luck Next time!")
 
