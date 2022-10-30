@@ -94,3 +94,21 @@ For example :
 
 ![Image](/00_includes/Cloud/Week1/2-tco-report-bar-graphs.png)
 
+#### Question 5
+
+For doing this you can set a budget for your account , and  add an alert to it. So when the budget nears that amount , it will send an alert to the email id added while creating the budget.This can help you to keep track of your expenses.
+
+
+![Alert](/00_includes/Cloud/Week1/Azure-02/AZ-02.1.PNG)
+
+
+![CM](/00_includes/Cloud/Week1/Azure-02/AZ-02.2.PNG)
+
+
+![CM](/00_includes/Cloud/Week1/Azure-02/AZ-02.3.PNG)
+
+![CM](/00_includes/Cloud/Week1/Azure-02/AZ-02.4.PNG)
+
+![CM](/00_includes/Cloud/Week1/Azure-02/AZ-02.PNG)
+
+![CM](/00_includes/Cloud/Week1/Azure-02/AZ-02-ViewExp.PNG)
