@@ -3,6 +3,8 @@ Azure Virtual Network (VNet) is the fundamental building block for your private 
 
 
 ### Responsibilities of VNet
+- Isolation and segmentation: Azure virtual network allows you to create multiple isolated virtual networks. When you set up a virtual network, you define a private IP address space by using either public or private IP address ranges. The IP range only exists within the virtual network and isn't internet routable. You can divide that IP address space into subnets and allocate part of the defined address space to each named subnet.
+
 - Communicate with the internet: All resources in a VNet can communicate outbound to the internet, by default. You can communicate inbound to a resource by assigning a public IP address or a public Load Balancer. You can also use public IP or public Load Balancer to manage your outbound connections. 
 - Communicate between Azure resources: Azure resources communicate securely with each other in one of the following ways:
     - Through a virtual network:You can deploy VMs, and several other types of Azure resources to a virtual network, such as Azure App Service Environments, the Azure Kubernetes Service (AKS), and Azure Virtual Machine Scale Sets. 
