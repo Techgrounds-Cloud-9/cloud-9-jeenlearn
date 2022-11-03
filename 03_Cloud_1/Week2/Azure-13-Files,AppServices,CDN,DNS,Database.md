@@ -98,6 +98,7 @@ You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a d
 ### Sources
 
 *[Azure Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
+
 *[App service](https://learn.microsoft.com/en-us/azure/app-service/)
 
 
@@ -130,6 +131,7 @@ You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a d
 ### Sources
 
 *[Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql)
+
 *[Creating SQL DB](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
 
 
