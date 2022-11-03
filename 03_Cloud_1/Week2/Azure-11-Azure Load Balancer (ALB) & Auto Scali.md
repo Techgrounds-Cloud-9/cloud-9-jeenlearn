@@ -90,6 +90,7 @@ Create the Virtual machine scale set.
 * [VMSS](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)
 
 
+* [Stress test](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/tutorial-autoscale-cli)
 
 ### Overcome challenges
 
