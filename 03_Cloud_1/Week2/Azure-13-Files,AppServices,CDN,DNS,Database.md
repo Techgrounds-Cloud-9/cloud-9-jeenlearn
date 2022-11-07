@@ -97,9 +97,9 @@ You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a d
 
 ### Sources
 
-*[Azure Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
+* [Azure Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
 
-*[App service](https://learn.microsoft.com/en-us/azure/app-service/)
+* [App service](https://learn.microsoft.com/en-us/azure/app-service/)
 
 
 
@@ -130,9 +130,9 @@ You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a d
 
 ### Sources
 
-*[Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql)
+*  [Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql)
 
-*[Creating SQL DB](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
+* [Creating SQL DB](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
 
 
 
@@ -159,3 +159,27 @@ You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a d
 ![SQLDB](/00_includes/Cloud/Week2/Azure-13/AzureSQL/QueryEditior.png)
 
 ![SQLDB](/00_includes/Cloud/Week2/Azure-13/AzureSQL/QuerySampleDB.png)
+
+## Exercise 3
+
+- Azure SQL Managed Instance 
+    
+
+### Sources
+
+* [Azure SQL Managed Instance](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql)
+
+
+
+
+
+### Overcome challenges
+
+### Results
+
+Creation of SQL Managed Instance
+
+![Managed Instance](/00_includes/Cloud/Week2/Azure-13/AzureSQlManaged/ManagedInstance.png)
+
+![Managed Instance](/00_includes/Cloud/Week2/Azure-13/AzureSQlManaged/CreatingMI.png)
+
