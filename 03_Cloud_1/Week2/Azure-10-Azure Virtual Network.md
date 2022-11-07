@@ -113,8 +113,13 @@ Virtual Network with the subnets and route mentioned in the route for the subnet
  ### Results
 
 
+![Vm1](/00_includes/Cloud/Week2/Azure-10/VmCreation_subnet2_publicip.png)
 
 ![Vm1](/00_includes/Cloud/Week2/Azure-10/VMcreatedwithsubnet2.png)
+
+![Vm1](/00_includes/Cloud/Week2/Azure-10/Natgatewaycreation.png)
+
+![Vm1](/00_includes/Cloud/Week2/Azure-10/Effectiveroutes_VM.png)
 
 ![Vm2](/00_includes/Cloud/Week2/Azure-10/Websitereachable.png)
 
