@@ -183,3 +183,94 @@ Creation of SQL Managed Instance
 
 ![Managed Instance](/00_includes/Cloud/Week2/Azure-13/AzureSQlManaged/CreatingMI.png)
 
+
+## Exercise 4
+
+- Azure SQL Database connected to a VM via private end point
+
+1. Create a Virtual Network (“VNet1”) and a subnet “snet-vm”
+2. Create a VM and associate it to snet-vm
+3. Create a SQL server and a SQL Database with sample data
+4. Connect to the SQL database 
+5. Add a new subnet called “snet-pvt-endpoint”
+6. Create a Private End point and associate it to snet-pvt-endpoint 
+7. Configure the SQL Server to use the private end point  (By doing this access to SQL server is limited to VNet1)
+8. Disable the public connectivity to SQL Server
+9. Now RDP connect to VM and use S/W application to connect to SQL database
+    
+
+### Sources
+
+* [Azure SQL Database video](https://www.youtube.com/watch?v=4VAMDlK-3Vw)
+
+
+
+
+
+### Overcome challenges
+
+### Results
+
+Virtual network created with a subnet
+
+![SQl DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/Vnetcreation.png)
+
+
+ Virtual machine creation with vnet connected
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/Vmcreation.png)
+
+Creation of SQl DB. Create SQl server.
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/sqlserver.png)
+
+Public access point made active .This makes the database accessible via the internet. But in a secure environment , we shouldnot give this public access.
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/SQLPublicaccesspoint.png)
+
+DB Created.
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/SQLDBcreated.png)
+
+For connecting to the database you need to add teh client ip address (you machines ip address ) in the networking details of the SQL server
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/SQLServer%2BAddclientIP.png)
+
+Query the DB 
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/QuerytheDB.png)
+
+Create a new subnet to connect to the Database
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/Addnewsubnet.png)
+
+Choose the new subnet while creating the private end point. The private end point is used to connect the DB to the VM.
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/Choosenewsubnetcreated.png)
+
+Private End point creation
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/Privateendpointcreation.png)
+
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/SQLDBPrivateEndpointCreated.png)
+
+
+Disable the public access point to disable the internet access.
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/DisablepublicaccesonSQL.png)
+
+
+Remote Desktop Connection to connect to your VM
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/RDPVM.png)
+
+You can install the Sql Server Management Console on the VM to access the SQL DB from the VM
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/SQLAccessFromVM.png)
+
+Query the DB from the SSMStudio
+
+![SQL DB](/00_includes/Cloud/Week2/Azure-13/AzureSQL_VM/QueryDBfromVM.png)
+
+
