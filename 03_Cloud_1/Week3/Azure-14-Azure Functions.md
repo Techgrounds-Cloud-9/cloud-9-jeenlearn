@@ -75,12 +75,36 @@ It has the following characteristics:
 
 # Azure Service Bus
 
+Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics (in a namespace). Service Bus is used to decouple applications and services from each other, providing the following benefits:
+
+Load-balancing work across competing workers
+Safely routing and transferring data and control across service and application boundaries
+Coordinating transactional work that requires a high-degree of reliability
+
+## Queues
+Messages are sent to and received from queues. Queues store messages until the receiving application is available to receive and process them.
+Messages in queues are ordered and timestamped on arrival. Once accepted by the broker, the message is always held durably in triple-redundant storage, spread across availability zones if the namespace is zone-enabled. Service Bus never leaves messages in memory or volatile storage after they've been reported to the client as accepted.
+
+Messages are delivered in pull mode, only delivering messages when requested.
+![Queue](/00_includes/Cloud/Week3/about-service-bus-queue.png)
+## Topics
+You can also use topics to send and receive messages. While a queue is often used for point-to-point communication, topics are useful in publish/subscribe scenarios.
+
+![Topics](/00_includes/Cloud/Week3/about-service-bus-topic.png)
+
+# Azure Queue Storage
+
+Azure Queue Storage is a service for storing large numbers of messages. You access messages from anywhere in the world via authenticated calls using HTTP or HTTPS. A queue message can be up to 64 KB in size. A queue may contain millions of messages, up to the total capacity limit of a storage account. Queues are commonly used to create a backlog of work to process asynchronously.
+
+Queue: A queue contains a set of messages. The queue name must be all lowercase. 
+
+Message: A message, in any format, of up to 64 KB.
 
 ## Key Terminologies
 
 
 
-## Exercise 1
+## Exercise 1 Azure Function + Event Grid
 
 - Create function App with a function
 - Create a blob storage and when a blob is uploaded trigger an event 
@@ -96,6 +120,7 @@ It has the following characteristics:
 * [EventGrid](https://learn.microsoft.com/en-us/azure/event-grid/overview?WT.mc_id=AZ-MVP-5003556)
 * [Compare messaging services](https://learn.microsoft.com/en-us/azure/event-grid/compare-messaging-services)
 * [Video of Function & Event grid demo](https://www.youtube.com/watch?v=W1QFS-_HnsA)
+* [ Compare messages and events](https://learn.microsoft.com/en-us/training/modules/choose-a-messaging-model-in-azure-to-connect-your-services/)
 
 
 ### Overcome challenges
