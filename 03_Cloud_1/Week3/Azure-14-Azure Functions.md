@@ -92,6 +92,9 @@ You can also use topics to send and receive messages. While a queue is often use
 
 ![Topics](/00_includes/Cloud/Week3/about-service-bus-topic.png)
 
+## Namespaces
+A namespace is a container for all messaging components (queues and topics). Multiple queues and topics can be in a single namespace, and namespaces often serve as application containers.
+
 # Azure Queue Storage
 
 Azure Queue Storage is a service for storing large numbers of messages. You access messages from anywhere in the world via authenticated calls using HTTP or HTTPS. A queue message can be up to 64 KB in size. A queue may contain millions of messages, up to the total capacity limit of a storage account. Queues are commonly used to create a backlog of work to process asynchronously.
@@ -121,6 +124,7 @@ Message: A message, in any format, of up to 64 KB.
 * [Compare messaging services](https://learn.microsoft.com/en-us/azure/event-grid/compare-messaging-services)
 * [Video of Function & Event grid demo](https://www.youtube.com/watch?v=W1QFS-_HnsA)
 * [ Compare messages and events](https://learn.microsoft.com/en-us/training/modules/choose-a-messaging-model-in-azure-to-connect-your-services/)
+* [Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
 
 
 ### Overcome challenges

@@ -34,6 +34,7 @@ Azure offers various support plan and you can choose the one that fits your need
 - Basic :
     - Included for all Azure customers
     - Can submit as many support tickets as needed and support Azure Advisor
+    - 24/7 self help resources included
 - Developer:
     - USD$29 per month
     - Trial and non-production environments
@@ -79,6 +80,8 @@ Operational excellence recommendations in Azure Advisor can help you with:
 The performance recommendations in Azure Advisor can help improve the speed and responsiveness of your business-critical applications. 
 ## Reliability
 Azure Advisor helps you ensure and improve the continuity of your business-critical applications. 
+## Security
+Advisor helps to detect threats and vulnerabilities that might lead to security breaches. 
 
 # Azure App Configuration
 Azure App Configuration provides a service to centrally manage application settings and feature flags. Modern programs, especially programs running in a cloud, generally have many components that are distributed in nature. Spreading configuration settings across these components can lead to hard-to-troubleshoot errors during an application deployment. Use App Configuration to store all the settings for your application and secure their accesses in one place.
@@ -144,9 +147,12 @@ Methods to retrieve activity log events:
 
 - Use the Azure Monitor REST API to retrieve the activity log from a REST client.
 
-Send the activity log to a Log Analytics workspace to enable the Azure Monitor Logs feature,Activity log data in a Log Analytics workspace is stored in a table called AzureActivity that you can retrieve with a log query in Log Analytics. 
+
 ## Activity log insights
 Activity log insights let you view information about changes to resources and resource groups in a subscription. The dashboards also present data about which users or services performed activities in the subscription and the activities' status.
+## Azure Log Analytics
+Azure Log Analytics is the tool in the Azure portal where you’ll write and run log queries on the data gathered by Azure Monitor. Log Analytics is a robust tool that supports both simple, complex queries, and data analysis. You can write a simple query that returns a set of records and then use features of Log Analytics to sort, filter, and analyze the records. You can write an advanced query to perform statistical analysis and visualize the results in a chart to identify a particular trend. Whether you work with the results of your queries interactively or use them with other Azure Monitor features such as log query alerts or workbooks, Log Analytics is the tool that you're going to use to write and test those queries.
+Send the activity log to a Log Analytics workspace to enable the Azure Monitor Logs feature,Activity log data in a Log Analytics workspace is stored in a table called AzureActivity that you can retrieve with a log query in Log Analytics. 
 ## Key Terminologies
 
 
