@@ -25,6 +25,11 @@ The recovery service vault is used for backing up the web server. The recovery s
 
 The disks in the vms need to be encrypted for that azure encryption disks with the key vault is used. 
 
+To get object id az ad signed-in-user show --query id -o tsv
+ az ad user list --filter "mail eq '$(az account show --query user.name -o tsv)'" --query "[0].id" -o tsv
+To check the status of the disk encryption
+  az vm encryption show --name "MgmtServerVM" --resource-group "prodrg" --query "substatus"
+
 The resources which are need to meet these requirements are:
 
 Storage Account
