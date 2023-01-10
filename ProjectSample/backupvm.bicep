@@ -5,7 +5,7 @@ param webservervm string
 param location string = resourceGroup().location
 
 @description('Vault name')
-param vaultName string = 'webvaultname'
+param vaultName string = 'WebVMRecoveryVault'
 
 
 @description('Storage replication type for Recovery Services vault')
@@ -18,12 +18,9 @@ param vaultName string = 'webvaultname'
 param storageType string = 'LocallyRedundant'
 
 @description('Backup policy to be used to backup VMs. Backup Policy defines the schedule of the backup and how long to retain backup copies. By default every vault comes with a \'DefaultPolicy\' which canbe used here.')
-param policyName string = 'webvaultPolicyname'
+param policyName string = 'RecoveryDailyPolicy'
 
-var scheduleRunTimes = [
-  '2022-12-07T15:00:00Z'
-  
-]
+
 var backupFabric = 'Azure'
 var protectionContainer = 'iaasvmcontainer;iaasvmcontainerv2;${resourceGroup().name};${webservervm}'
 var protectedItem = 'vm;iaasvmcontainerv2;${resourceGroup().name};${webservervm}'
@@ -41,7 +38,9 @@ resource recoveryServicesVault 'Microsoft.RecoveryServices/vaults@2022-09-10' = 
     name: 'RS0'
     tier: 'Standard'
   }
-  properties: {}
+  properties: {
+  }
+
 }
 
 // create backup policy 
@@ -52,7 +51,6 @@ resource backupPolicy 'Microsoft.RecoveryServices/vaults/backupPolicies@2022-03-
   properties: {
     backupManagementType: 'AzureIaasVM'
     instantRpRetentionRangeInDays: 5
-    
     protectedItemsCount: 0
     schedulePolicy: {
       schedulePolicyType: 'SimpleSchedulePolicy'
@@ -84,5 +82,7 @@ resource vaultName_backupFabric_protectionContainer_protectedItem 'Microsoft.Rec
     protectedItemType: 'Microsoft.Compute/virtualMachines'
     policyId: backupPolicy.id
     sourceResourceId: webserver.id
+     
   }
+
 } 
