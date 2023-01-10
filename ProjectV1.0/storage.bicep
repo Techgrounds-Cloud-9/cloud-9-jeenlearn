@@ -62,7 +62,7 @@ resource deploymentScript 'Microsoft.Resources/deploymentScripts@2020-10-01' = {
       }
       {
         name: 'CONTENT'
-        value: loadTextContent('../ProjectSample/installapache.sh')
+        value: loadTextContent('../ProjectV1.0/installapache.sh')
       }
     ]
     scriptContent: 'echo "$CONTENT" > ${filename} && az storage blob upload -f ${filename} -c ${containerName} -n ${filename}'
