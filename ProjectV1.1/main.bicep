@@ -1,7 +1,7 @@
 // Project Infrastructure as Code
 // @author - Jeena Marath Premkumar
-// @created on - 02/12/2022
-// @version V1.0
+// @created on -17/1/2023
+// @version V1.1
 // This bicep file is the starting point of the deployment.This file has all the modules to be created for the project.
 
 targetScope = 'subscription'
