@@ -374,7 +374,7 @@ resource appGw 'Microsoft.Network/applicationGateways@2021-05-01' = {
   ]
 }
 
-resource vmss 'Microsoft.Compute/virtualMachineScaleSets@2017-03-30' = {
+resource vmss 'Microsoft.Compute/virtualMachineScaleSets@2022-08-01' = {
   name: namingInfix
   location: location
   zones:[
@@ -385,12 +385,19 @@ resource vmss 'Microsoft.Compute/virtualMachineScaleSets@2017-03-30' = {
     tier: 'Standard'
     capacity: instanceCount
   }
+  
   properties: {
+    
     overprovision: true
     singlePlacementGroup: false
     
     upgradePolicy: {
       mode: 'Automatic'
+    }
+    automaticRepairsPolicy: {
+      enabled: true
+      gracePeriod: 'PT10M'
+      //repairAction: 'Replace'
     }
     virtualMachineProfile: {
       storageProfile: {
@@ -449,8 +456,7 @@ resource vmss 'Microsoft.Compute/virtualMachineScaleSets@2017-03-30' = {
                 fileUris: [
                     'https://prodrguniquestorage.blob.core.windows.net/data/installapache.sh'
                     
-                     //blobfileurl
-                   // 'https://gist.githubusercontent.com/daveRendon/72986871085786d04d0cdc2b1065355b/raw/34b2a4b5e05dc32f695c8236c89a2c62ce6213ca/install_apache.sh'
+                   
                 ]
                                
               }
@@ -462,6 +468,19 @@ resource vmss 'Microsoft.Compute/virtualMachineScaleSets@2017-03-30' = {
                 //commandToExecute: 'sh install_apache.sh'
              }
            }
+          }
+          {
+            name : 'healthextension'
+            properties:{
+              publisher:'Microsoft.ManagedServices'
+              type: 'ApplicationHealthLinux'
+              autoUpgradeMinorVersion:true
+              typeHandlerVersion: '1.0'
+              settings:{
+                protocol: 'tcp'
+                port : 80
+              }
+            }
           }
        ]
       }
@@ -497,7 +516,7 @@ resource autoscalewad 'Microsoft.Insights/autoscalesettings@2015-04-01' = {
               timeWindow: 'PT2M'
               timeAggregation: 'Average'
               operator: 'GreaterThan'
-              threshold: 60
+              threshold: 70
             }
             scaleAction: {
               direction: 'Increase'
